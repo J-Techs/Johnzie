@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+</head>
+<body bgcolor="red">
+	<img src="A.jpg" height="200px" width="200px" align="left">
+	<table border="2" cellpadding="5px" cellspacing="5px" width="50%" bgcolor="green">
+		<caption align="top">My Timetable</caption>
+		<tr bgcolor="blue">
+			<td align="right">TIME</td>
+			<td>10-12</td>
+			<td>12-2</td>
+			<td>2-4</td>
+		</tr>
+		<tr>
+			<td>MONDAY</td>
+			<td colspan="2"> csc 207</td>
+			<td>csc 201</td>
+		</tr>
+		<tr>
+			<td>TUESDAY</td>
+			<td>csc 205</td>
+			<td>GNS 103</td>
+			<td rowspan="2">csc 203 </td>
+		</tr>
+		<tr>
+			<td>WEDNESDAY</td>
+			<td>Mat 201</td>
+			<td>Mat 203</td>
+		</tr>
+	</table>
+	<p>
+		<li>By defualt all cells content at the table row are aligned to the left</li>
+		<li>By defualt all cells content at the table columns are aligned to the middle.</li>
+		<div><b><font style="Arial">Therefore, to change the defualt, you can add an attribute.</font></b></div>
+	</p>
+	<table border="5">
+		<tr>
+			<td colspan="2" align="center">
+				200lvl programme/course
+					<table border="2" width="200px">
+					<tr>
+						<td align="center">CSC</td>
+						<td align="center">207</td>
+					</tr>
+
+					<tr>
+						<td align="center">CSC</td>
+						<td align="center">201</td>
+					</tr>
+
+					<tr>
+						<td align="center">CSC</td>
+						<td align="center">205</td>
+					</tr>
+				</table>
+			      </td>
+				<td colspan="2">200lvl programme/course
+				<table border="2">
+					<tr>
+				<tr>
+					<td align="center">PDP</td>
+					<td align="center">PDP</td>
+				</tr>
+				<tr>
+					<td align="center">IDEL</td>
+					<td align="center">IDEL</td>
+				</tr>
+				<tr>
+					<td align="center">REGULAR</td>
+					<td align="center">REGULAR</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+	<br><a href="index.html">INDEX</a>
+	<br><a href="j-Techs.html">BACK</a>
+</body>
+</html>
